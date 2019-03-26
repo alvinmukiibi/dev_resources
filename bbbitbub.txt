@@ -1,0 +1,38 @@
+Bitbucket account
+
+mukikelly792@gmail.com
+bitbucket.org/alvinmukiibi
+
+Clone link for Backend of SP
+git clone https://alvinmukiibi@bitbucket.org/controyo/serviceproviderserver.git
+git pull
+
+Github
+
+mukikelly792@gmail.com
+Patricium@550
+
+repositories
+https://github.com/alvinmukiibi/fate
+
+Steps for initial git submit and commit (push)
+
+-git status
+- git init
+- git add .
+- git remote add origin https://alvinmukiibi@bitbucket.org/controyo/front-end.git
+
+
+- git commit -m "Front End"
+- git push -u origin master
+
+Pull
+
+Apiary account
+mukikelly792@gmail.com
+Patricium@550
+
+Google analytics account
+Alvin Mukiib
+Trackig ID UA-132677583-1
+

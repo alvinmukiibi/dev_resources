@@ -1,0 +1,28 @@
+php artisan make:migration create_users_table
+php artisan migrate:rollback //undo changes
+php artisan migrate //execute the db queries
+
+//make a controller
+
+php artisan make:controller PagesController 
+
+create an alias in gitbash
+
+Go to C:\Program Files\Git\etc\profile.d\aliases.sh
+
+edit it and add your alias
+
+"terminal.integrated.shellArgs.windows": [
+    "--login", "-i"
+],
+
+to vscode
+
+git commands
+pull
+push
+statusgit
+addgit
+
+php artisan make:seed FirmsTableSeeder
+php artisan db:seed

@@ -1,0 +1,10 @@
+
+Because reducers are just functions, you can control the order in which they are called, pass additional data, or even make reusable reducers for common tasks such as pagination, when you map state to props , you can pull out anything from the state tree)
+
+- make more research on the concept of generators HALF WAY DONE
+
+Do the restful example
+file:///C:/Users/ALVIN/Downloads/Chrome%20Downloads/Rest%20API/PHP%207%20Tutorial%20with%20MySQL_%20CRUD%20REST%20API%20&%20JWT%20_%20Techiediaries.html
+
+
+buy 2 books, church and sticker note

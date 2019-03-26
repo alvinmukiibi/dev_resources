@@ -1,0 +1,22 @@
+C:\xampp\apache\conf\extra
+file is httpd-vhosts.conf
+
+
+at the bottom add
+<VirtualHost *:80>
+   DocumentRoot "C:/xampp/htdocs"
+   ServerName localhost
+</VirtualHost>
+
+<VirtualHost *:80>
+ 
+    ##DocumentRoot "C:/xampp/htdocs/Lavin/public"
+    ##ServerName lavin.alv
+    
+</VirtualHost>
+
+open notepad as admin
+
+C:\Windows\System32\Drivers\etc\hosts file
+add 
+127.0.0.1 		lavin.alv

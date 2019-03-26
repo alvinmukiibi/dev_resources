@@ -1,0 +1,74 @@
+1. While working on the registration form for the claw firms, i had to use the countries and region selector, so i download and used a package using composer called
+webpatser/laravel-countries
+
+ERROR seederClass does not exist
+SOLUTION run cmd:  composer dump-autoload 
+
+after registering a law firm, i need to send an email with 
+SUBJECT: WAT-L REGISTRATION
+Body : Law firm ID sent an OTP, link to follow to verify their email
+HEAD: WAT-L
+
+To clear cache, more so after changing configuration files run
+php artisan config:cache
+
+mysteron64@gmail.com, app password is votbhwxghbjxnncp
+Persistance breaks resistance, everyday works.
+
+uninstall composer package
+composer remove vendor/package
+
+generate key
+
+php artisan key:generate
+
+
+Laravel Passport authentication & Authorization
+I wanted to do two things, make a web system that was using web.php to do all its stuff, and a mobile app that was depending on a Laravel API to service requests from the mobile app user. The first thing I needed to do was learn how to use either OAuth 2.0, JWT or the Laravel supported Passport Authorization/Authentication package to authenticate my mobile app users.
+I read several articles on the internet to learn how to integrate JWT into Laravel since I was somehow familiar with JWT, I fell upon a post by a one Tymon but I found it unsable and the configuration was confusing. I had formerly configured Passport successfully and subsequently tried OAuth since Passport uses OAuth. 
+Finally I was able to do my first level of API, Authentication using Passport and it was easy, I used a post at https://tutsforweb.com/laravel-passport-create-rest-api-with-authentication/
+and it was very helpful.
+
+MY API
+
+I have routes 
+http://wat.alv/api/login
+arguments are - a POST request with email and password
+returns - JSON object with passport token (so now I need to learn how to decode the token and get the data out of it in the frontend since its always the frontend that makes this request)
+-I intend to use the Laravel Passport Documentation for this.
+
+To see all the npm global packages
+
+npm list -g
+
+React Native
+- installation steps
+1. Install nodejs, python2 and the JDK
+2. Install Android studio and install the necessary SDK's and AVD'see
+3. Connect your phone to your PC, but after enabling USB Debugging on your Phone, also make sure that it is in charging mode of Transfer files
+4. install react-native-cli
+5. set the ANDROID_HOME path directory to the home directory of your sdk. also set the platform_tools
+6. run react-native init nameOfProject
+7. let it run and it installs whatever it wants
+8. run adb devices to make sure android device is seen
+9. run react-native run-android and the app will run and install on your phone
+10. Now to enable Live reloading, shake the phone until a menu displays, enable  live reload, then go down to dev settings
+11. ensure phone and pc are on same network
+12. on dev settings, look for "debug server host ...." and set the ip and port for your pc
+e.g. 192.23.34.45:8081
+13 menu and reload
+
+API ENDPOINTS
+http://localhost/wat/public/api/
+
+run a react-native app
+react-native run-android
+
+start a new react-native app
+react-native init name_of_app
+
+Got the npm ERR! Unexpected end of JSON input while parsing near ERROR
+
+npm cache clean --force
+
+

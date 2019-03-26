@@ -1,0 +1,41 @@
+VS Settings
+
+{
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+}
+
+
+npm run dev (compile css
+
+npm run watch
+
+ctrl f5 run without cache
+
+php commands
+
+php artisan make:controller NameOfController
+//but if we want it to come with resource functions we say
+php artisan make:controller NameOfController --resource
+$ php artisan make:model Post -m
+php artisan migrate
+php artisan tinker
+
+//to insert rows using tinker
+we can first count the number of rows in the table by
+App\Post::count()  //App is the folder where models are and Post is the name of the model
+then we create an object of the model
+$post = new App\Post();
+then use this object to insert rows and save
+$post->title="Hello";
+$post->save()
+
+artisan command to show all route
+php artisan route:list
+
+//how to create a migration
+terminal
+php artisan make:migration add_user_id_to_posts
+Go to database/migrations/
+add body to up method
+then comman
+php artisan migrate
