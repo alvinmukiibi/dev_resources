@@ -1,0 +1,500 @@
+   38  status
+   39  add
+   40  git commit -m "Dummy commit on branch dev"
+   41  status
+   42  add
+   43  git commit -m "Dummy commit 2 on branch dev"
+   44  c
+   45  log
+   46  log1
+   47  git checkout master
+   48  c
+   49  log1
+   50  git checkout bugs
+   51  git checkout dev
+   52  log1
+   53  dan
+   54  status
+   55  exit
+   56  appcellon 
+   57  cd Git/
+   58  c
+   59  cd ../
+   60  cd Branches/
+   61  c
+   62  log
+   63  status
+   64  status
+   65  c
+   66  git branch -a
+   67  git checkout master
+   68  git branch -a
+   69  git log
+   70  git checkout dev
+   71  log
+   72  git checkout master
+   73  c
+   74  log
+   75  c
+   76  ll
+   77  cd lib
+   78  ll
+   79  cd ../src/
+   80  ll
+   81   touch version.txt
+   82  git checkout dev
+   83  git add .
+   84  git commit -m "Release v1.0"
+   85  ll
+   86  log
+   87  git checkout bugs
+   88  log
+   89  git checkout master
+   90  log
+   91  git checkout dev
+   92  c
+   93  log1
+   94  git checkout master
+   95  cd ../
+   96  status
+   97  git checkout dev
+   98  git checkout master
+   99  git status
+  100  git merge dev
+  101  log1
+  102  git checkout dev
+  103  git checkout master
+  104  log
+  105  c
+  106   exit
+  107  wat\'
+  108  c
+  109  wat
+  110  php artisan serve
+  111  c
+  112  log1
+  113  c
+  114  php artisan serve
+  115  php artisan serve
+  116  exit
+  117  wat
+  118  c
+  119  log1
+  120  status
+  121  git add .
+  122  status
+  123  git commit -m "5th March, rectified activate and deactivate, added login using otp for firms, change of password and true login"
+  124  status
+  125  log1
+  126  exit
+  127  wat
+  128  log1
+  129  push
+  130  c
+  131  push
+  132  log1
+  133  exit
+  134  wat
+  135  cd ../
+  136  cd cyd_service/
+  137  git init
+  138  git clone https://alvinmukiibi@bitbucket.org/controyo/serviceproviderserver.git
+  139  exit
+  140  wat
+  141  cache
+  142  exit
+  143  wat
+  144  cd ../security/
+  145  ll
+  146  git init
+  147  status
+  148  git add .
+  149  status
+  150  git commit -m "Login Only in Weak Mode"
+  151  log1
+  152  exit
+  153  macro
+  154  cd ../
+  155  cd reactclientpanel/
+  156  run
+  157  wat
+  158  cd ../security/
+  159  c
+  160  log1
+  161  status
+  162  add
+  163  git commit -m "Have Added Transactions, Still in Weak State"
+  164  log1
+  165  git checkout ab7860e
+  166  git checkout master
+  167  log1
+  168  exit
+  169  wat
+  170  cd ../security/\
+  171  cd ../security/
+  172  ll
+  173  status
+  174  add
+  175  git commit -m "Removed SQL injection"
+  176  log1
+  177  git checkout ab7860e
+  178  git checkout master
+  179  log1
+  180  exit
+  181  e
+  182  e
+  183  Appcellon
+  184  appcellon 
+  185  c
+  186  ll
+  187  cd Git/'
+  188  '
+  189  c
+  190  cd Git/
+  191  c
+  192  ll
+  193  status
+  194  log1
+  195  touch test.js
+  196  c
+  197  ll
+  198  status
+  199  c
+  200  git add test.js
+  201  status
+  202  git rm test.js 
+  203  git rm --cached test.js 
+  204  log
+  205  c
+  206  ll
+  207  status
+  208  git add test.js 
+  209  git status
+  210  git rm --force test.js 
+  211  ll
+  212  touch test.js
+  213  git status
+  214  git add .
+  215  git status
+  216  git rm --cached test.js 
+  217  status
+  218  status
+  219  git add .
+  220  git commit -m "Added the JS file"
+  221  log1
+  222  git checkout 80f4dd2
+  223  log1
+  224  git checkout master
+  225  c
+  226  log1
+  227  c
+  228  git log -o
+  229  c
+  230  git log --oneline
+  231  git revert da1ca20
+  232  status
+  233  status'
+  234  '
+  235  status
+  236  git revert master
+  237  git status
+  238  git stash
+  239  status
+  240  git add .
+  241  git revert master
+  242  status
+  243  git commit -m "Changes to alvin.txt"
+  244  git revert master
+  245  c
+  246  log1
+  247  git reset HARD 3ce7feb
+  248  git reset --HARD 3ce7feb
+  249  git reset --hard 3ce7feb
+  250  c
+  251  log1
+  252  status
+  253  cd ../
+  254  mkdir Revert
+  255  c
+  256  ll
+  257  cd Revert/
+  258  c
+  259  git init
+  260  c
+  261  touch firstFile.js
+  262  status
+  263  git add .
+  264  git commit -m "Added the First File"
+  265  status
+  266  log1
+  267  c
+  268  touch secondFile.js
+  269  add
+  270  git commit -m "Added second file"
+  271  log1
+  272  touch thirdFile.js
+  273  git add .
+  274  git commit -m "Added a third file"
+  275  log1
+  276  c
+  277  log1
+  278  git revert 14b76df
+  279  status
+  280  log1
+  281  c
+  282  log1
+  283  git reset --hard 14b76df
+  284  c
+  285  log1
+  286  git revert 4a31853
+  287  log1
+  288  git revert 7e21029
+  289  c
+  290  log1
+  291  git reset ---hard 14b76df
+  292  git reset --hard 14b76df
+  293  c
+  294  log1
+  295  git revert e73c7f5
+  296  c
+  297  log1
+  298  git reset --hard 14b76df
+  299  c
+  300  log1
+  301  git branch bra
+  302  git checkout bra
+  303  c
+  304  status
+  305  mkdir bra
+  306  cd bra
+  307  touch fileFour.js
+  308  status
+  309  git add .
+  310  c
+  311  log1
+  312  git status
+  313  git commit -m "Added the fourth file on branch bra"
+  314  c
+  315  log1
+  316  git checkout master
+  317  status
+  318  cd ../
+  319  c
+  320  c
+  321  log1
+  322  git branch -a
+  323  git checkout master
+  324  git checkout bra
+  325  c
+  326  log1
+  327  git checkout master
+  328  c
+  329  git merge bra
+  330  git status
+  331  log1
+  332  e
+  333  appcellon 
+  334  c
+  335  ll
+  336  mkdir Demo
+  337  cd Demo/
+  338  c
+  339  touch demo.js
+  340  git init
+  341  ll
+  342  ls -alrt
+  343  ls -alrt
+  344  c
+  345  ls -a
+  346  ll
+  347  status
+  348  x
+  349  xc
+  350  c
+  351  git status
+  352  git add demo.js 
+  353  git status
+  354  git rm demo.js
+  355  git rm --cached demo.js
+  356  status
+  357  git rm --force demo.js
+  358  git add .
+  359  git rm --force demo.js
+  360  touch demo.js
+  361  git add .
+  362  ls
+  363  c
+  364  git log
+  365  git commit -m "Add Demo.js file"
+  366  c
+  367  git log
+  368  git log --oneline
+  369  git remote add origin https://mukiibi.git
+  370  git remote view
+  371  c
+  372  git remote -v
+  373  git remote remove https://mukiibi.git
+  374  git remote remove origin https://mukiibi.git
+  375  git remote remove origin
+  376  c
+  377  git remote add origin https://github.com/alvinmukiibi/Demo.git
+  378  git remote -v
+  379  git push
+  380  git push origin master
+  381  status
+  382  c
+  383  git push origin master
+  384  git config --global user.name "alvinmukiibi"
+  385  git config --global user.name "alvinmukiibi"
+  386  git push origin master
+  387  c
+  388  ll
+  389  c
+  390  status
+  391  c
+  392  log1
+  393  c
+  394  log1
+  395  touch anotherFile.js
+  396  add
+  397  git commit -m "add another file"
+  398  log1
+  399  c
+  400  mkdir h
+  401  status
+  402  rm -r h
+  403  c
+  404  log1
+  405  git checkout 8e30578
+  406  log1
+  407  git checkout master
+  408  log1
+  409  c
+  410  log1
+  411  touch thirdFile.js
+  412  c
+  413  add
+  414  git commit -m "Add third file"
+  415  c
+  416  log`
+  417  \
+  418  c
+  419  git log --oneline
+  420  c
+  421  log1
+  422  git revert 8e30578
+  423  c
+  424  log1
+  425  c
+  426  log1
+  427  log1
+  428  log1
+  429  c
+  430  ll
+  431  c
+  432  ll
+  433  git branch debug
+  434  git checkout debug
+  435  git checkout master
+  436  c
+  437  git checkout --branch newFeatures
+  438  x
+  439  c
+  440  git checkout -b newfeatures
+  441  cd demo.js 
+  442  c
+  443  log1
+  444  touch branchFile.js
+  445  add
+  446  git commit -m "Add branch file"
+  447  c
+  448  log1
+  449  git checkout master
+  450  git checkout newFeatures
+  451  c
+  452  log1
+  453  git checkout naster
+  454  git checkout master
+  455  c
+  456  ll
+  457  c
+  458  git merge newfeatures
+  459  ping google.com
+  460  ping google.com
+  461  ping google.com
+  462  exit
+  463  wat
+  464  cd ../
+  465  cd thenadaka/
+  466  log1
+  467  push
+  468  pull
+  469  log1
+  470  push
+  471  status
+  472  c
+  473  status
+  474  status
+  475  status
+  476  push
+  477  exit
+  478  wat
+  479  status
+  480  log14
+  481  log1
+  482  exit
+  483  create-react-native-app -v
+  484  npm install -g create-react-native-app
+  485  create-react-native-app -v
+  486  create-react-native-app --version
+  487  exit
+  488  npm install -g react-native-cli
+  489  react-native-cli --version
+  490  exit
+  491  wat
+  492  htdocs
+  493  cd ../
+  494  cd LavRest/
+  495  x
+  496  c
+  497  php artisan make:model Book -m
+  498  exit
+  499  wat
+  500  c
+  501  log1
+  502  git checkout 17adaf9
+  503  git checkout master
+  504  c
+  505  log1
+  506  cache
+  507  status
+  508  log1
+  509  htdocs
+  510  cd LavRest/
+  511  c
+  512  history
+  513  ls -alrt
+  514  c
+  515  ls -larth
+  516  sudo
+  517  c
+  518  ls -a
+  519  ls -alrt
+  520  c
+  521  htdocs
+  522  f:
+  523  cd ~
+  524  pwd
+  525  cd ../../../
+  526  cd f
+  527  c
+  528  ls
+  529  c
+  530  cd Res
+  531  cd Resources/
+  532  ll
+  533  cd Textual\ Resources/
+  534  c
+  535  touch commands.txt
+  536  histor>>commands.txt 
+  537  history >>commands.txt 
